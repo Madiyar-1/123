@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Футбольный калькулятор</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Футбольный калькулятор</h1>
+
+        <label for="achievements">Спортивные достижения:</label>
+        <input type="number" id="achievements" min="0" placeholder="Очки за достижения">
+
+        <label for="age">Возраст:</label>
+        <input type="number" id="age" min="0" placeholder="Возраст">
+
+        <label for="contracts">Контрактные обязательства:</label>
+        <input type="number" id="contracts" min="0" placeholder="Очки за контрактные обязательства">
+
+        <label for="popularity">Популярность и маркетинг:</label>
+        <input type="number" id="popularity" min="0" placeholder="Очки за популярность">
+
+        <label for="market">Трансферный рынок:</label>
+        <input type="number" id="market" min="0" placeholder="Очки за трансферный рынок">
+
+        <label for="economic">Экономические и финансовые факторы:</label>
+        <input type="number" id="economic" min="0" placeholder="Очки за экономические факторы">
+
+        <label for="coaching">Тренерский и менеджерский факторы:</label>
+        <input type="number" id="coaching" min="0" placeholder="Очки за тренерские факторы">
+
+        <button onclick="calculatePrice()">Рассчитать стоимость</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
